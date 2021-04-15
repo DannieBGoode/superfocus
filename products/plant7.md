@@ -5,7 +5,7 @@ description: Fusce sed tortor id diam rhoncus accumsan.
 price: '18.90'
 order: 7
 default_thumbnail_image: images/plant7.jpg
-default_original_image: images/plant7-lg.jpg
+default_original_image: /images/10530421-8814850274622320.png
 category: category/bigplants.md
 layout: product
 ---
