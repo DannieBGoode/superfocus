@@ -6,7 +6,7 @@ description: >-
   volutpat massa dolor id purus.
 price: '220.00'
 order: 5
-default_thumbnail_image: images/plant5.jpg
+default_thumbnail_image: /images/magnificent-mango.jpg
 default_original_image: /images/10530152-1604620650561058.jpg
 category: category/bigplants.md
 featured: true
