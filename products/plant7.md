@@ -1,6 +1,6 @@
 ---
 id: '7'
-title: Sed consectetur
+title: Daily Health
 description: Fusce sed tortor id diam rhoncus accumsan.
 price: '18.90'
 order: 7
