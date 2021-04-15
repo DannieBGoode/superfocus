@@ -5,7 +5,7 @@ description: Fusce sed tortor id diam rhoncus accumsan.
 price: '18.90'
 order: 7
 default_thumbnail_image: /images/10530421-8814850274622320.png
-default_original_image: /images/10530421-8814850274622320.png
+default_original_image: /images/magnificent-mango.jpg
 category: category/bigplants.md
 layout: product
 ---
