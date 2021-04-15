@@ -1,6 +1,6 @@
 ---
 id: '3'
-title: Curabitur eu tempor
+title: During-Gaming
 description: 'Nulla non pretium metus, vitae finibus lectus.'
 price: '150.00'
 order: 3
