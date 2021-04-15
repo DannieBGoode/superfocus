@@ -27,7 +27,7 @@ main_menu:
     title: FAQ
     url: /faq
     style: link
-footer_text: Copyright 2021 Planty Inc. All rights reserved.
+footer_text: Copyright 2021 SuperFocus Inc. All rights reserved.
 sass:
   style: nested
   precision: 10
