@@ -4,7 +4,7 @@ title: Daily Health
 description: Fusce sed tortor id diam rhoncus accumsan.
 price: '18.90'
 order: 7
-default_thumbnail_image: /images/10530421-8814850274622320.png
+default_thumbnail_image: /images/clever-bee.jpg
 default_original_image: /images/10530408-2964655389498413.jpg
 category: category/bigplants.md
 layout: product
