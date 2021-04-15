@@ -8,7 +8,7 @@ description: >-
 price: '49.40'
 order: 1
 default_thumbnail_image: images/plant1.jpg
-default_original_image: images/plant1-lg.jpg
+default_original_image: /images/vitamins.jpg
 category: category/bigplants.md
 featured: true
 layout: product
