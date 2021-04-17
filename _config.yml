@@ -33,6 +33,8 @@ sass:
   precision: 10
 plugins:
   - jekyll-menus
+include:
+- _pages
 exclude:
   - Gemfile
   - Gemfile.lock
