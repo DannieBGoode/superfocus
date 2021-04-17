@@ -27,10 +27,10 @@ sections:
     light_title: true
     icon: true
     featured_products:
-      - products/plant1.md
-      - products/plant3.md
-      - products/plant5.md
-      - products/plant7.md
+      - products/pre-gaming.md
+      - products/during-gaming.md
+      - products/post-gaming.md
+      - products/daily-health.md
   - type: featured_categories_section
     template: featured_categories_section
     section_id: featured_categories_section

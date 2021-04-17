@@ -52,4 +52,5 @@ sections:
       style: primary
       arrow: true
 layout: advanced
+permalink: "/about/"
 ---

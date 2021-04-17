@@ -52,6 +52,14 @@ layout: body
             </div>
         </section>
 
+        <section style="width: 50%">
+            {{ content }}
+        </section>
+
+        <section style="padding: 150px 0;width: 50%">
+            {% include ingredients.html %}
+        </section>
+
         {% assign category_is_not_empty = page.category | is_not_empty %}
         {% if category_is_not_empty %}
             <section class="content__row">

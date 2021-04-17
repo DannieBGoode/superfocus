@@ -10,10 +10,10 @@ sections:
     section_id: featured_products_section
     icon: true
     featured_products:
-      - products/plant1.md
-      - products/plant3.md
-      - products/plant5.md
-      - products/plant7.md
+      - products/pre-gaming.md
+      - products/during-gaming.md
+      - products/post-gaming.md
+      - products/daily-health.md
   - type: promotion_section
     template: promotion_section
     section_id: promotion_section
@@ -29,4 +29,5 @@ sections:
       style: secondary
       arrow: true
 layout: store
+permalink: "/store/"
 ---

@@ -1,0 +1,35 @@
+<div class="timeline-title">
+    <h2 class="section-heading">NATURAL INGREDIENTS</h2>
+    <h3 class="section-subheading text-muted">We have carefully selected 8 natural ingredients with each their own specific way of working and benefits.</h3>
+</div>
+
+<ul class="timeline">
+    {% for ingredientRow in site.data.ingredients %}
+
+        {% assign ingredient = ingredientRow[1] %}
+
+        {% if page.ingredients contains ingredient.id %}
+
+        <li class="{% cycle '', 'timeline-inverted' %}">
+            <div class="timeline-image">
+                <img class="img-circle img-responsive" src="{{ ingredient.img }}" alt="">
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>{{ ingredient.en.title }}</h4>
+                    <h4 class="subheading">Our Humble Beginnings</h4>
+                </div>
+                <div class="timeline-body">
+                    <p class="text-muted">{{ ingredient.en.description }}</p>
+                </div>
+            </div>
+        </li>
+
+        {% endif %}
+    {% endfor %}
+    <li class="timeline-inverted timeline-last">
+        <div class="timeline-image">
+            <h4>Superfocus</h4>
+        </div>
+    </li>
+</ul>
