@@ -36,6 +36,3 @@ fields:
   default: advanced
   config:
     required: true
-pages:
-- about.md
-- faq.md
