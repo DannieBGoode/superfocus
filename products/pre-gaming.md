@@ -13,6 +13,7 @@ category: category/bigplants.md
 featured: true
 layout: product
 ingredients:
+- caffeine
 - bacopa
 - ginseng
 ---
