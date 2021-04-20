@@ -1,5 +1,5 @@
 title: Planty
-baseurl: /
+baseurl: ''
 permalink: '/:title/'
 palette: green
 snipcart_api_key: ''
@@ -27,6 +27,11 @@ main_menu:
     title: FAQ
     url: /faq
     style: link
+  - type: action
+    template: action
+    title: Blog
+    url: /blog
+    style: link
 footer_text: Copyright 2021 Planty Inc. All rights reserved.
 sass:
   style: nested
@@ -50,4 +55,6 @@ exclude:
   - stackbit-pull.js
 collections:
   posts:
+    title: Posts
+    output: true
     permalink: '/posts/:title/'

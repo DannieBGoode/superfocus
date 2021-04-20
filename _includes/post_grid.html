@@ -1,0 +1,30 @@
+<article class="post-card {{ page.class }}{% unless post.banner_image %} no-image{% endunless %}">
+    {% if post.banner_image %}
+        <a class="post-card-image-link" href="{{site.baseurl}}{{post.url}}">
+            <div class="post-card-image" style="background-image: url({{ post.banner_image }})"></div>
+        </a>
+    {% endif %}
+    <div class="post-card-content">
+        <a class="post-card-content-link" href="{{site.baseurl}}{{post.url}}">
+            <header class="post-card-header">
+                    <span class="post-card-tags">
+                    {{ post.date | date: "%B %d, %Y" }}
+                    </span>
+                <h2 class="post-card-title">{{ post.title }}<br>{{ post.content | strip_html | truncate: 20, "" }}...</h2>
+            </header>
+        </a>
+        <footer class="post-card-meta">
+
+            <p class="read-more read-more-grid">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="more-link right">
+                {% if lang == 'es' %}
+                Leer Más
+                {% else %}
+                Read More
+                {% endif %}
+                </a>
+            </p>
+
+        </footer>
+    </div>
+</article>
