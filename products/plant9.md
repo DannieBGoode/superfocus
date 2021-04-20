@@ -1,7 +1,7 @@
 ---
-id: '9'
 title: Fusce sagittis
-description: 'Nulla diam diam, maximus gravida efficitur eu, ultricies quis orci.'
+id: '9'
+description: Nulla diam diam, maximus gravida efficitur eu, ultricies quis orci.
 price: '400.00'
 order: 9
 default_thumbnail_image: images/plant9.jpg

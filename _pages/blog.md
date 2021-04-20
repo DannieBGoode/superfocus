@@ -1,6 +1,6 @@
 ---
-layout: body
 permalink: "/blog/"
+layout: body
 lang: en
 ---
 

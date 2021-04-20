@@ -1,6 +1,6 @@
 ---
-id: '6'
 title: Donec finibus
+id: '6'
 description: Cras molestie faucibus ipsum ut vulputate.
 price: '100.00'
 order: 6
