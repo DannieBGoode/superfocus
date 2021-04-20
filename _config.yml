@@ -8,6 +8,7 @@ collections:
   products:
     title: Products
     output: true
+    permalink: "/products"
   uploads:
     title: Uploads
     output: true
