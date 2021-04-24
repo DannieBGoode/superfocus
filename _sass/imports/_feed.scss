@@ -62,7 +62,7 @@
         box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
         /*transition: all 0.5s ease;*/
 
-        // @media only screen and (min-width: $mobile) {
+        @media only screen and (min-width: $mobile) {
             transition: background-color 0.5s;
             &:hover {
                 background-color: $dark-hover;
@@ -84,7 +84,7 @@
                     height: 400px;
                 }
             }
-        // }
+        }
     }
     &.single {
         max-width: 1200px;
