@@ -6,7 +6,7 @@ lang: en
 
 <main class="content dark">
 
-      <div class="blog-title" style="font-size: 3.125rem;width: 50%;margin-top: 50px;margin-bottom: 60px; color: white">
+      <div class="blog-title">
         <h1>SUPERFOCUS <br>BLOG</h1>
       </div>
 

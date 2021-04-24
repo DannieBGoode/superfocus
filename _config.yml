@@ -1,6 +1,5 @@
 ---
-title: Planty
-timezone: UTC
+title: Superfocus
 collections:
   posts:
     title: Posts
@@ -41,7 +40,7 @@ main_menu:
   title: Blog
   url: "/blog"
   style: link
-footer_text: Copyright 2021 Planty Inc. All rights reserved.
+footer_text: Copyright 2021 Superfocus Inc. All rights reserved.
 sass:
   style: nested
   precision: 10

@@ -20,6 +20,17 @@
     background-color: #2a2b2e;
 }
 
+.blog-title {
+    font-size: 3.125rem; 
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    color: white;
+    @media (max-width: $small-desktop) {
+        font-size: 2rem;
+    }
+}
+
 
 /* 6. Post Feed
 /* ---------------------------------------------------------- */
@@ -50,27 +61,30 @@
         border-radius: 5px;
         box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
         /*transition: all 0.5s ease;*/
-        transition: background-color 0.5s;
-        &:hover {
-            background-color: $dark-hover;
-            color: white;
-            cursor: pointer;
-            .post-card-image-link .post-card-image {
-                transform: scale(1.5);
+
+        // @media only screen and (min-width: $mobile) {
+            transition: background-color 0.5s;
+            &:hover {
+                background-color: $dark-hover;
+                color: white;
+                cursor: pointer;
+                .post-card-image-link .post-card-image {
+                    transform: scale(1.5);
+                }
+                .post-card-title, .post-card-excerpt, .more-link {
+                    color: $light-text;
+                }
             }
-            .post-card-title, .post-card-excerpt, .more-link {
-                color: $light-text;
+            color: $white;
+            .read-more {
+                color: $dark-text;
             }
-        }
-        color: $white;
-        .read-more {
-            color: $dark-text;
-        }
-        &:first-child {
-            @media (min-width: $desktop) {
-                height: 400px;
+            &:first-child {
+                @media (min-width: $desktop) {
+                    height: 400px;
+                }
             }
-        }
+        // }
     }
     &.single {
         max-width: 1200px;
@@ -124,12 +138,25 @@
             }
         }
         .side-column {
+            .sticky {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+            }
             padding-right: 40px;
             padding-top: 5px;
             margin-top:0;
-            width: 200px;
             @media only screen and (max-width: $small-desktop) {
                 padding: 40px;
+            }
+            @media only screen and (min-width: $small-desktop) {
+                width: 200px;
+            }
+            .side-body {
+                @media only screen and (max-width: $small-desktop) {    
+                    display: flex;
+                    flex-direction: column-reverse;
+                }
             }
             .share-title {
                 width: 100%;
@@ -151,7 +178,9 @@
         header {
             padding-bottom: 50px;
             h1 {
-                font-size: 3.375rem;
+                @media only screen and (min-width: $small-desktop) {
+                    font-size: 3.375rem;
+                }
             }
             &:after {
                 position: relative;
