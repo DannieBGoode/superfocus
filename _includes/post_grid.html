@@ -10,20 +10,10 @@
                     <span class="post-card-tags">
                     {{ post.date | date: "%B %d, %Y" }}
                     </span>
-                <h2 class="post-card-title">{{ post.title }}<br>{{ post.content | strip_html | truncate: 20, "" }}...</h2>
+                <h2 class="post-card-title">{{ post.title | strip_html | truncate: 300, "" }}...</h2>
             </header>
         </a>
         <footer class="post-card-meta">
-
-            <p class="read-more read-more-grid">
-                <a href="{{ site.baseurl }}{{ post.url }}" class="more-link right">
-                {% if lang == 'es' %}
-                Leer Más
-                {% else %}
-                Read More
-                {% endif %}
-                </a>
-            </p>
 
         </footer>
     </div>

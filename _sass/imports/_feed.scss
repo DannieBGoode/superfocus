@@ -24,6 +24,9 @@
     font-size: 3.125rem; 
     width: 50%;
     margin-top: 50px;
+    @media (max-width: $tablet) {
+        margin-top: 100px;
+    }
     margin-bottom: 60px;
     color: white;
     @media (max-width: $small-desktop) {
@@ -50,6 +53,9 @@
     background-size: cover;
     background-color: $white;
     margin: 0 20px 40px;
+    &:not(:first-child) {
+        height: 500px;
+    }
     &:not(.single) {
 
         flex: 1 1 300px;
@@ -212,6 +218,7 @@
     background: $mine-shaft no-repeat center center;
     background-size: cover;
     background-position: center;
+    height: 250px;
 }
 
 .post-card-content-link {
@@ -242,6 +249,7 @@
     margin-top: 0;
     font-size: 2.375rem;
     color: #181818;
+    padding-top: 25px;
 }
 
 .post-card-content {
