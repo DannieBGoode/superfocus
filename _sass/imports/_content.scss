@@ -1,6 +1,8 @@
 .content {
     @include container-properties;
-    padding-top: 101px;
+    @media (min-width: $tablet) {
+        padding-top: 101px;
+    }
 
     &__row {
         @include container-item-properties;
