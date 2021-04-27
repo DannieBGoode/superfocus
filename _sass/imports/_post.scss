@@ -1,4 +1,155 @@
 .post-card.single {
+
+    max-width: 1200px;
+    @media only screen and (min-width: $mobile) {
+        margin-top: 60px;
+    }
+    @media only screen and (max-width: $mobile) {
+        .post-card-image {
+            max-width: 500px;
+        }
+    }
+
+    .post-body {
+        display: flex;
+        @media only screen and (min-width: 992px) {
+            flex-direction: row;
+        }
+        flex-direction: column;
+        p {
+            line-height: 2em;
+            font-size: 20px;
+            line-height: 40px;
+            vertical-align: baseline;
+        }
+    }
+    .meta-element {
+        a {
+            color: $dark-text;
+            &:hover {
+                color: $link-hover;    
+            }   
+        }
+        margin-bottom: 35px;
+        ul {
+            display: flex;
+            li {
+                &:first-child {
+                    border-right: 1px solid;
+                    margin-right: 20px;
+                    padding-right: 20px;
+                }
+                display: list-item;
+            }
+        }
+    }
+    .main-column {
+        padding: 40px;
+        width: 100%;
+        @media only screen and (min-width: $small-desktop) {
+            width: calc(100% - 200px);
+        }
+    }
+    .side-column {
+    	/* Mobile and Tablet */
+    	@media only screen and (max-width: $tablet) {
+			position: sticky;
+			bottom: 0;
+			margin: 0;
+			padding: 0 5px 0 0;
+			.side-body {
+				background-color: $white;
+				border-top: 1px solid #ddd;
+				display: flex;
+				flex-direction: row-reverse;
+				.share-post {
+					margin: auto;
+					padding-bottom: 6px;
+					.share-buttons a {
+						border-radius: 50%;
+					}
+				}
+			}
+		}
+		/* Desktop */
+		@media only screen and (min-width: $small-desktop) {
+	        padding-right: 40px;
+	        padding-top: 5px;
+	        margin-top:0;
+	        width: 200px;
+		}
+        .sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding-top: 200px;
+        }
+        @media only screen and (max-width: $small-desktop) {
+            // padding-right: 64px;
+        }
+        @media only screen and (min-width: $tablet) and (max-width: $small-desktop) {
+            
+            .side-body {
+            	display: flex;
+            	flex-direction: row-reverse;
+            	justify-content: space-between;
+            	.progress-circle-container {
+            		margin: 0;
+            		margin-right: 10%
+            	}
+            	.share-post {
+            		margin-left: 10%;
+		            .share-buttons li {
+		            	margin: initial;
+		            }
+            	}
+            }
+        }
+        .side-body {
+            @media only screen and (min-width: $small-desktop) {    
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .share-title {
+        	display: none;
+            margin-bottom: 35px;
+            padding-top: 40px;
+            margin-left: 10%;
+            &:after {
+                position: relative;
+                bottom: -25px;
+                left: 0;
+                width: 40px;
+                height: 1px;
+                display: block;
+                content: '';
+                background-color: rgba(157,164,179,.3);
+            }
+        }
+    }
+    header {
+        padding-bottom: 50px;
+        h1 {
+            @media only screen and (min-width: $small-desktop) {
+                font-size: 3.375rem;
+            }
+        }
+        &:after {
+            position: relative;
+            bottom: -25px;
+            left: 0;
+            width: 80px;
+            height: 2px;
+            display: block;
+            content: '';
+            background-color: #1d232e;
+        }
+    }
+
+
+
+
 	@media only screen and (max-width: $tablet) {
 		margin-top: 50px;
 		width: 100%;
@@ -7,5 +158,18 @@
         @media only screen and (min-width: $tablet) {
 			height: 500px;
 		}
-	}	
+	}
+	@media only screen and (max-width: $mobile) {
+		.main-column {
+			.meta-element {
+				ul {
+					display: flex;
+					justify-content: space-around;
+				}
+			}
+		}
+	}
+	.side-column {
+		
+	}
 }
