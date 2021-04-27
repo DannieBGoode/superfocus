@@ -50,8 +50,10 @@
     background-size: cover;
     background-color: $white;
     margin: 0 20px 40px;
-    &:not(:first-child) {
-        height: 500px;
+    @media only screen and (min-width: $tablet) {
+        &:not(:first-child) {
+            height: 500px;
+        }
     }
     &:not(.single) {
 

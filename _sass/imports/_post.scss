@@ -35,9 +35,17 @@
             display: flex;
             li {
                 &:first-child {
-                    border-right: 1px solid;
                     margin-right: 20px;
                     padding-right: 20px;
+                    @media only screen and (max-width: $tablet) {
+                    	width: 50%;
+                    }
+                    @media only screen and (max-width: $mobile) {
+                		border-right: 1px solid;
+                    }
+                    @media only screen and (min-width: $tablet) {
+                    	border-right: 1px solid;
+                    }
                 }
                 display: list-item;
             }
@@ -159,17 +167,14 @@
 			height: 500px;
 		}
 	}
-	@media only screen and (max-width: $mobile) {
+	@media only screen and (max-width: $tablet) {
 		.main-column {
 			.meta-element {
 				ul {
 					display: flex;
-					justify-content: space-around;
+					justify-content: space-between;
 				}
 			}
 		}
-	}
-	.side-column {
-		
 	}
 }
