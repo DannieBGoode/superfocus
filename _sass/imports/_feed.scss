@@ -24,9 +24,6 @@
     font-size: 3.125rem; 
     width: 50%;
     margin-top: 50px;
-    @media (max-width: $tablet) {
-        margin-top: 100px;
-    }
     margin-bottom: 60px;
     color: white;
     @media (max-width: $small-desktop) {

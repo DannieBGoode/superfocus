@@ -3,6 +3,9 @@
     @media (min-width: $tablet) {
         padding-top: 101px;
     }
+    @media (max-width: $tablet) {
+        padding-top: 50px;
+    }
 
     &__row {
         @include container-item-properties;
