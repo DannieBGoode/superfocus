@@ -1,7 +1,9 @@
 ---
 permalink: "/blog/"
 layout: body
+white_header: true
 lang: en
+ref: blog
 ---
 
 <main class="content dark">
@@ -13,10 +15,9 @@ lang: en
       <div class="inner">
 
               <div class="grid-view">
-                  {% for post in site.posts %}
-                    {% if post.lang == page.lang %}
+                  {% assign posts = site.posts | where:"lang", page.lang %}
+                  {% for post in posts %}
                         {%  include post_grid.html %}
-                    {% endif %}
                   {% endfor %}
               </div>
 

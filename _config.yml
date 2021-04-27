@@ -8,6 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    type: posts
+    path: ''
+  values:
+    white_header: true
 baseurl: ''
 permalink: "/:title/"
 palette: green
