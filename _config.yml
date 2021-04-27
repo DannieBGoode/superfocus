@@ -10,8 +10,8 @@ collections:
     output: true
 defaults:
 - scope:
-    type: posts
     path: ''
+    type: posts
   values:
     white_header: true
 baseurl: ''
