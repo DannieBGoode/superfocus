@@ -125,8 +125,10 @@
     padding-top: 25px;
   }
   &.display {
-    transform: unset;
-    transition: background-color 0.5s, transform 1s;
+    @media only screen and (max-width: $tablet) {
+      transform: unset;
+      transition: background-color 0.5s, transform 1s;
+    }
   }
   &.fixed-color {
     background-color: rgba(31,36,47,.7);
