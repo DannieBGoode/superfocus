@@ -15,6 +15,7 @@ defaults:
   values:
     white_header: true
 baseurl: ''
+url: https://superfocus.cc
 permalink: "/:title/"
 palette: green
 snipcart_api_key: ''

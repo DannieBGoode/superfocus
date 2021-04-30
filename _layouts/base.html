@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.18/default/snipcart.css" />
         <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
         <link rel="icon" type="image/png" href="{{ site.favicon | relative_url }}">
+        <link rel="canonical" href="{{ page.url | replace:'/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
         
     </head>
     <body class="{{ page.layout }}-template palette-{{ site.palette }}">
