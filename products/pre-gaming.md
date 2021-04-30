@@ -17,7 +17,6 @@ ingredients:
 - ginseng
 - rhodolia
 - mucuna
-
 ---
 
 # Nulla suscipit
