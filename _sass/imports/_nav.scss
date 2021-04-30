@@ -106,15 +106,32 @@
 
 .header {
   @include container-item-properties;
-  position: absolute;
+  position: fixed;
+  transition: background-color 0.5s ease-in-out, transform 1s, -webkit-transform 1s;
+  -o-transition: background-color 0.5s ease-in-out;
   left: 0;
   right: 0;
   z-index: 10;
   padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 1s;
+  background-color: transparent;
   @include smaller-than-tablet {
     padding-top: 25px;
+  }
+  &.display {
+    transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -webkit-transition: -webkit-transform 1s;
+    transition: background-color 0.5s, transform 1s, -webkit-transform 1s;
+  }
+  &.fixed-color {
+    background-color: rgba(31,36,47,.7);
   }
 }
 
