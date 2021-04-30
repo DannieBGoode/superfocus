@@ -78,7 +78,7 @@ window.mobileAndTabletcheck = function() {
 //hides navigation-bar when scrolling down on mobile
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
-  if (mobileAndTabletcheck()) {
+  // if (mobileAndTabletcheck()) {
       var currentScrollPos = window.pageYOffset;
       if ((prevScrollpos >= currentScrollPos) || (currentScrollPos <= 150)) {
         // document.querySelector('header').style.top = '0';
@@ -88,7 +88,7 @@ window.onscroll = function () {
         document.querySelector('header').classList.remove("display");
       }
       prevScrollpos = currentScrollPos;
-  }
+  // }
   if (currentScrollPos > 50) {
     document.querySelector('header').classList.add("fixed-color");
   } else {

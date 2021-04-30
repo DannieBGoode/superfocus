@@ -6,7 +6,7 @@
     {% assign is_logo_light = true %}
 {% endif %}
 
-<header class="header">
+<header class="header display">
     <nav class="nav{% assign is_white_header_is_not_empty = is_white_header | is_not_empty %}{% if is_white_header_is_not_empty %} nav--light{% endif %}{% if is_white_header != true %} nav--dark{% endif %}">
         <div class="nav__logo"{% if is_logo_light and site.logo_light %} data-original="{{ site.logo_light | relative_url }}"{% endif %}{% assign logo_dark_is_not_empty = site.logo_dark | is_not_empty %}{% if logo_dark_is_not_empty %} data-dark="{{ site.logo_dark | relative_url }}"{% endif %}>
             <a href="{{ '/' | relative_url }}">
