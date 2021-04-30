@@ -34,5 +34,41 @@
 		},
 		"img": "https://5.imimg.com/data5/FJ/JU/MY-45122889/roasted-coffee-beans-500x500.jpg",
 		"id": "caffeine"
+	},
+	"theaine": {
+		"es": {
+			"title": "Teanina",
+			"description": "Utilizamos semillas de Coffea Arábica de la máxima pureza y calidad . La combinación de Teanina y Cafeína anhidra, potencia los efectos de ambas sustancias y reduce los efectos secundarios relacinados con la cafeína (agitación, nerviosismo) . Uno de los combustibles de Pandora que actúa en sinergia con el resto de ingredientes."
+		},
+		"en": {
+			"title": "Theanine",
+			"description": "Caffeine helps you lose weight by increasing the amount of energy your body burns throughout the day also improves strength, promotes muscle endurance, and enhances anaerobic performance."
+		},
+		"img": "https://image.freepik.com/foto-gratis/hojas-te-verde_52256-3.jpg",
+		"id": "theaine"
+	},
+	"rhodolia": {
+		"es": {
+			"title": "Rhodiola",
+			"description": "Utilizamos semillas de Coffea Arábica de la máxima pureza y calidad . La combinación de Teanina y Cafeína anhidra, potencia los efectos de ambas sustancias y reduce los efectos secundarios relacinados con la cafeína (agitación, nerviosismo) . Uno de los combustibles de Pandora que actúa en sinergia con el resto de ingredientes."
+		},
+		"en": {
+			"title": "Rhodiola",
+			"description": "Caffeine helps you lose weight by increasing the amount of energy your body burns throughout the day also improves strength, promotes muscle endurance, and enhances anaerobic performance."
+		},
+		"img": "https://soycomocomo.es/media/2017/10/rhodiola-planta.jpg",
+		"id": "rhodolia"
+	},
+	"mucuna": {
+		"es": {
+			"title": "Mucuna Puriens",
+			"description": "Utilizamos semillas de Coffea Arábica de la máxima pureza y calidad . La combinación de Teanina y Cafeína anhidra, potencia los efectos de ambas sustancias y reduce los efectos secundarios relacinados con la cafeína (agitación, nerviosismo) . Uno de los combustibles de Pandora que actúa en sinergia con el resto de ingredientes."
+		},
+		"en": {
+			"title": "Mucuna Puriens",
+			"description": "Caffeine helps you lose weight by increasing the amount of energy your body burns throughout the day also improves strength, promotes muscle endurance, and enhances anaerobic performance."
+		},
+		"img": "http://sc04.alicdn.com/kf/U66ceefcd30d44c43880fca1fccac24e6f.jpeg",
+		"id": "mucuna"
 	}
 }

@@ -12,8 +12,12 @@ featured: true
 layout: product
 ingredients:
 - caffeine
+- theaine
 - bacopa
 - ginseng
+- rhodolia
+- mucuna
+
 ---
 
 # Nulla suscipit
