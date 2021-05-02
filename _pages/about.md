@@ -46,5 +46,7 @@ sections:
     style: primary
     arrow: true
 layout: advanced
+ref: about
+lang: en
 ---
 

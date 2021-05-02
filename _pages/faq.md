@@ -52,5 +52,7 @@ sections:
   email: geeks@snipcart.com
   mapUrl: https://goo.gl/maps/g6za62bN9BHrNTVt5
 layout: advanced
+ref: faq
+lang: en
 ---
 

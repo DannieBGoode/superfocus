@@ -30,5 +30,7 @@ sections:
     style: secondary
     arrow: true
 layout: store
+ref: store
+lang: en
 ---
 
