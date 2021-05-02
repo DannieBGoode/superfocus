@@ -65,5 +65,7 @@ sections:
     style: secondary
     arrow: true
 layout: home
+ref: home
+lang: en
 ---
 
