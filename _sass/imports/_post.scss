@@ -90,7 +90,9 @@
             position: -webkit-sticky;
             position: sticky;
             top: 0;
-            padding-top: 200px;
+            @media only screen and (min-width: $tablet) {
+                padding-top: 200px;
+            }
         }
         @media only screen and (max-width: $small-desktop) {
             // padding-right: 64px;
