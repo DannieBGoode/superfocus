@@ -1,0 +1,103 @@
+/* 
+^ Styling the drop-down menu for language switcher
+* Auther : Fadi Nouh
+* URL : https://bluebit.dev
+* Repository: https://github.com/bluebits-academy/language-switcher
+*/
+
+.lang-menu {
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    position: relative;
+    &:hover ul {
+        display: block;
+    }
+    .selected-lang {
+        display: flex;   
+        justify-content: space-between;
+        line-height: 2;
+        cursor: pointer;
+        &:before {
+            content: '';
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        @media (max-width: $tablet) {
+            display: none;
+        }
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        display: none;
+        background-color: $dark-bg;
+        border: 1px solid #f8f8f8;
+        position: absolute;
+        border-radius: 5px;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+        @media (max-width: $tablet) {
+            display: none;
+            &.mobile {
+                // position: fixed !important;
+                display: block;
+                // left: 20px;
+                // bottom: 20px;
+                background-color: transparent;
+                border: 0;
+                box-shadow: unset;
+            }
+            li {
+                display: inline-block !important;
+            }
+        }
+        &:hover {
+            display: block;
+        }
+        li {
+            list-style: none;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            &:hover {
+                background-color: #f2f2f2;
+            }
+            a {
+                text-decoration: none;
+                padding: 5px 0px 5px 10px;
+                display: block;
+                &:before {
+                    content: '';
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    vertical-align: middle;
+                    margin-right: 10px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+    .de:before {
+        background-image: url(https://www.countryflags.io/de/flat/32.png);
+    }
+
+    .en:before {
+        background-image: url(https://www.countryflags.io/EU/flat/32.png);
+    }
+    .fr:before {
+        background-image: url(https://www.countryflags.io/fr/flat/32.png);
+    }
+
+    .ar:before {
+        background-image: url(https://www.countryflags.io/ae/flat/32.png);
+    }
+
+    .es:before {
+        background-image: url(https://www.countryflags.io/es/flat/32.png);
+    }
+}
