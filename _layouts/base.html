@@ -12,9 +12,11 @@
         <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
         <link rel="icon" type="image/png" href="{{ site.favicon | relative_url }}">
         <link rel="canonical" href="{{ page.url | replace:'/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
+        {% include tagmanager_head.html %}
         
     </head>
     <body class="{{ page.layout }}-template palette-{{ site.palette }}">
+        {% include tagmanager_body.html %}
         
         {{ content }}
         <script defer async src="{{ 'js/lib/modernizr.js' | relative_url }}"></script>
