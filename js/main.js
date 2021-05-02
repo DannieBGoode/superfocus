@@ -96,3 +96,6 @@ window.onscroll = function () {
   }
 }
 
+
+// on page load:
+window.addHamburgerMenuHandlers();
