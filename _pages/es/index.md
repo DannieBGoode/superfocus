@@ -9,19 +9,19 @@ sections:
   background_image: "/images/photo-1560253023-3ec5d502959f.jpg"
   background_image_opacity: 65
   content: |
-    # Focus on what matters
+    # Enfocate en lo que importa
 
-    Don't forget to add your Snipcart API key to the site's configuration to enable Cart actions.
+    Nootropicos y bebidas para gamers
   actions:
   - type: action
     template: action
-    title: See all items
+    title: Ver Todos
     url: "/store"
     style: primary
     arrow: true
 - type: featured_products_section
   template: featured_products_section
-  title: Best sellers
+  title: Lo más vendido
   section_id: best_sellers_section
   light_title: true
   icon: true
@@ -39,7 +39,7 @@ sections:
 - type: testimonials_section
   template: testimonials_section
   section_id: testimonials_section
-  title: Testimonials
+  title: Testimonios
   testimonials:
   - text: I didn't know the Snipcart guys were into herbs as well! How beautiful is
       that Planty theme. I'm going to launch a killer JAMstack e-commerce store using
@@ -61,7 +61,7 @@ sections:
   cta:
     type: action
     template: action
-    title: Discover
+    title: Descubre
     url: "/store"
     style: secondary
     arrow: true

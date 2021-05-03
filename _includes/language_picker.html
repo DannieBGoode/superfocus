@@ -1,6 +1,6 @@
 <div class="language-picker">
     <div class="lang-menu">
-	    <div class="selected-lang {{ page.lang }}"></div>
+	    <div class="selected-lang"><span class="icon-earth"></span></div>
 	    <ul>
 			{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
 			{% for post in posts %}

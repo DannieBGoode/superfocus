@@ -10,7 +10,7 @@ sections:
   content: |
     # Focus on what matters
 
-    Don't forget to add your Snipcart API key to the site's configuration to enable Cart actions.
+    Nootropics and energy drinks for gamers
   actions:
   - type: action
     template: action

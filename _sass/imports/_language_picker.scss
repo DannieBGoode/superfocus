@@ -17,8 +17,9 @@
         display: block;
     }
     .selected-lang {
-        display: flex;   
-        justify-content: space-between;
+        display: flex;
+        padding: 12px 0 0 12px;
+        // justify-content: space-between;
         line-height: 2;
         cursor: pointer;
         &:before {
@@ -36,6 +37,7 @@
     ul {
         margin: 0;
         padding: 0;
+        left: 20px;
         display: none;
         background-color: $dark-bg;
         border: 1px solid #f8f8f8;

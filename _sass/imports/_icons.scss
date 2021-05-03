@@ -110,6 +110,15 @@
 .icon-menu:before {
   content: "\e9bd";
 }
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-minus:before {
+  content: "\ea0b";
+}
 .icon-cross:before {
   content: "\ea0f";
 }
@@ -127,6 +136,9 @@
 }
 .icon-backward2:before {
   content: "\ea1f";
+}
+.icon-infinite:before {
+  content: "\ea2f";
 }
 .icon-arrow-up-left:before {
   content: "\ea31";
@@ -238,4 +250,7 @@
 }
 .icon-linkedin2:before {
   content: "\eaca";
+}
+.icon-paypal:before {
+  content: "\ead8";
 }
