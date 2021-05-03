@@ -1,6 +1,9 @@
 <div class="language-picker">
     <div class="lang-menu">
-	    <div class="selected-lang"><span class="icon-earth"></span></div>
+	    <div class="selected-lang">
+	    	<span class="icon-earth"></span>
+	    	<svg viewBox="0 0 16 16" style="fill: white;width:16px"><polygon points="3,5 8,11 13,5 "></polygon></svg>
+		</div>
 	    <ul>
 			{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
 			{% for post in posts %}
