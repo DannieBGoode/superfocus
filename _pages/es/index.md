@@ -9,7 +9,7 @@ sections:
   background_image: "/images/photo-1560253023-3ec5d502959f.jpg"
   background_image_opacity: 65
   content: |
-    # Enfocate en lo que importa
+    # Pon foco en lo que importa
 
     Nootropicos y bebidas para gamers
   actions:
