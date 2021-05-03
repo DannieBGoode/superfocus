@@ -72,12 +72,14 @@
                 <ul class="hamburger__nav">
                     {% for item in site.main_menu %}
                         {% assign section = page.section | default: page.title %}
+                        {% assign title = 'title' | append: "-" | append: page.lang %}
+                        {% assign url = 'url' | append: "-" | append: page.lang %}
                         {% if item.title == section %}
                             {% assign isActive = true %}{% else %}
                             {% assign isActive = false %}{% endif %}
                         <li class="hamburger__nav-item">
-                            <a href="{{ item.url | relative_url }}" class="hamburger__nav-link{% assign isActive_is_not_empty = isActive | is_not_empty %}{% if isActive_is_not_empty %} hamburger__nav-link--active{% endif %}">
-                                {{ item.title }}
+                            <a href="{{ item[url] | relative_url }}" class="hamburger__nav-link{% assign isActive_is_not_empty = isActive | is_not_empty %}{% if isActive_is_not_empty %} hamburger__nav-link--active{% endif %}">
+                                {{ item[title] }}
                             </a>
                         </li>
                     {% endfor %}
