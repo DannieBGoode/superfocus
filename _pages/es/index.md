@@ -6,7 +6,7 @@ sections:
 - type: hero_section
   template: hero_section
   section_id: hero_section
-  background_image: "/images/photo-1560253023-3ec5d502959f.jpg"
+  background_image: "/images/photo-1560253023-3ec5d502959f.webp"
   background_image_opacity: 65
   content: |
     # Pon foco en lo que importa
@@ -56,7 +56,7 @@ sections:
   section_id: promotion_section
   title: A new home interior for summer
   subtitle: from $149.99
-  image: images/promo.jpg
+  image: images/promo.webp
   background_image: images/leaf.svg
   cta:
     type: action

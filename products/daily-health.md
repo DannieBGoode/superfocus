@@ -4,8 +4,8 @@ id: '7'
 description: Fusce sed tortor id diam rhoncus accumsan.
 price: '18.90'
 order: 7
-default_thumbnail_image: "/images/clever-bee.jpg"
-default_original_image: "/images/10530408-2964655389498413.jpg"
+default_thumbnail_image: "/images/clever-bee.webp"
+default_original_image: "/images/10530408-2964655389498413.webp"
 category: category/bigplants.md
 layout: product
 ---

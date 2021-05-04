@@ -4,8 +4,8 @@ id: '3'
 description: Nulla non pretium metus, vitae finibus lectus.
 price: '150.00'
 order: 3
-default_thumbnail_image: "/images/12552274-6724824414590685.png"
-default_original_image: "/images/12552274-6724824414590685.png"
+default_thumbnail_image: "/images/12552274-6724824414590685.webp"
+default_original_image: "/images/12552274-6724824414590685.webp"
 category: category/cactuses.md
 featured: true
 layout: product

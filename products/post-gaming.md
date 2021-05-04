@@ -5,8 +5,8 @@ description: Donec finibus, augue in sagittis auctor, mi neque convallis arcu, q
   volutpat massa dolor id purus.
 price: '220.00'
 order: 5
-default_thumbnail_image: "/images/magnificent-mango.jpg"
-default_original_image: "/images/10530152-1604620650561058.jpg"
+default_thumbnail_image: "/images/magnificent-mango.webp"
+default_original_image: "/images/10530152-1604620650561058.webp"
 category: category/bigplants.md
 featured: true
 layout: product
