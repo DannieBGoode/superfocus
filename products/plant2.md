@@ -4,8 +4,8 @@ id: '2'
 description: Suspendisse efficitur eget erat sit amet efficitur.
 price: '99.00'
 order: 2
-default_thumbnail_image: images/plant2.jpg
-default_original_image: images/plant2-lg.jpg
+default_thumbnail_image: images/plant2.webp
+default_original_image: images/plant2-lg.webp
 category: category/cactuses.md
 layout: product
 featured: false
