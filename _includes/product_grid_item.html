@@ -1,10 +1,11 @@
 {% assign product_page = include.product_page %}
+{% assign loading = include.loading %}
 
 <li class="product-grid__item">
     <figure class="product-grid__item-figure">
         <a class="product-grid__item-link" href="{{ product_page.url | relative_url }}">
             
-            {% include picture.html image=product_page.default_thumbnail_image alt=product_page.title cssClass='product-grid__item-image' %}
+            {% include picture.html image=product_page.default_thumbnail_image alt=product_page.title cssClass='product-grid__item-image' loading=loading %}
         </a>
         <figcaption>
             

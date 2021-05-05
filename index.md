@@ -32,6 +32,7 @@ sections:
 - type: featured_categories_section
   template: featured_categories_section
   section_id: featured_categories_section
+  loading: lazy
   featured_categories:
   - category/bigplants.md
   - category/cactuses.md
