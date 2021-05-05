@@ -4,8 +4,8 @@ id: '9'
 description: Nulla diam diam, maximus gravida efficitur eu, ultricies quis orci.
 price: '400.00'
 order: 9
-default_thumbnail_image: images/plant9.jpg
-default_original_image: images/plant9-lg.jpg
+default_thumbnail_image: images/plant9.webp
+default_original_image: images/plant9-lg.webp
 category: category/cactuses.md
 featured: true
 layout: product

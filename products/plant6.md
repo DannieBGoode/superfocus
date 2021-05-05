@@ -4,8 +4,8 @@ id: '6'
 description: Cras molestie faucibus ipsum ut vulputate.
 price: '100.00'
 order: 6
-default_thumbnail_image: images/plant6.jpg
-default_original_image: images/plant6-lg.jpg
+default_thumbnail_image: images/plant6.webp
+default_original_image: images/plant6-lg.webp
 category: category/bigplants.md
 layout: product
 ---

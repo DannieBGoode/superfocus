@@ -4,8 +4,8 @@ id: '8'
 description: In cursus sagittis eros non congue.
 price: '50.00'
 order: 8
-default_thumbnail_image: images/plant8.jpg
-default_original_image: images/plant8-lg.jpg
+default_thumbnail_image: images/plant8.webp
+default_original_image: images/plant8-lg.webp
 category: category/summer.md
 layout: product
 ---
