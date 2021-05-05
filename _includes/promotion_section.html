@@ -1,8 +1,9 @@
 {% assign section = include.section %}
+{% assign loading = section.loading %}
 <section class="content__row content__row--full-width promo__section"  data-id="{{ section.section_id }}">
     <div class="promo">
         
-        {% include picture.html image=section.image alt=section.title %}
+        {% include picture.html image=section.image alt=section.title loading=loading %}
 
         <div class="promo__message-container" {% assign background_image_is_not_empty = section.background_image | is_not_empty %}{% if background_image_is_not_empty %}style="background-image: url('{{ section.background_image | relative_url }}')"{% endif %}>
             <h2 class="promo__title">{{ section.title }}</h2>
