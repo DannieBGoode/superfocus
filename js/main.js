@@ -2,7 +2,11 @@ const templateParams = document.getElementById('template-params').dataset;
 const apiKey = templateParams.apiKey;
 const templatesUrl = templateParams.templatesUrl
 
-fetch(templatesUrl)
+window.addEventListener('scroll', fetchSnipcartjs);
+window.addEventListener('click', fetchSnipcartjs)
+
+function fetchSnipcartjs() {
+  fetch(templatesUrl)
     .then(response => response.text())
     .then((htmlTemplate) => {
       const fragment = document.createElement('div');
@@ -15,8 +19,11 @@ fetch(templatesUrl)
       script.setAttribute("async", "");
       script.src = 'https://cdn.snipcart.com/themes/v3.0.18/default/snipcart.js';
       document.body.appendChild(script);
-    });
 
+      window.removeEventListener("scroll", fetchSnipcartjs);
+      window.removeEventListener("click", fetchSnipcartjs);
+  });
+}
 // Handle hamburger menu toggle
 function menuToggleHandler() {
   let nav = document.querySelector('.nav');
