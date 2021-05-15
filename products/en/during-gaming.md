@@ -9,6 +9,7 @@ default_original_image: "/images/12552274-6724824414590685.webp"
 category: category/cactuses.md
 featured: true
 layout: product
+lang: en
 ---
 
 # Curabitur eu tempor

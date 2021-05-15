@@ -12,7 +12,7 @@
             {% include nav_categories.html page=page site=site %}
         </nav>
         <section class="store__products">
-            {% assign product_pages = '/products' | get_pages | sort: 'order' %}
+            {% assign product_pages = '/products' | get_pages | where:"lang", page.lang | sort: 'order' %}
             
             {% include product_grid.html product_pages=product_pages category_url=category_url cssClass='store__product-grid' site=site %}
         </section>

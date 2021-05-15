@@ -8,6 +8,7 @@ default_thumbnail_image: images/plant4.webp
 default_original_image: images/plant4-lg.webp
 category: category/cactuses.md
 layout: product
+lang: es
 ---
 
 # Cras molestie

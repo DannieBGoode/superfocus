@@ -8,6 +8,7 @@ default_thumbnail_image: images/plant8.webp
 default_original_image: images/plant8-lg.webp
 category: category/summer.md
 layout: product
+lang: en
 ---
 
 # Fusce sed

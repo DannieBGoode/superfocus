@@ -1,0 +1,94 @@
+{
+  "product": {
+    "see-all-products": {
+      "en": "See All Products",
+      "es": "Ver Todos"
+    },
+    "add-to-cart": {
+      "en": "Add to cart",
+      "es": "Añadir al carro"
+    }
+  },
+  "ingredients": {
+    "natural-ingredients": {
+      "en": "Natural Ingredients",
+      "es": "Ingredientes Naturales",
+    },
+    "ingredients-introduction": {
+      "en": "We have carefully selected 8 natural ingredients with each their own specific way of working and benefits.",
+      "es": "Hemos elegido cuidadosamente 8 ingredients naturales cada uno con su manera específica de mejorar tu rendimiento.",
+    }
+  },
+  "blog": {
+    "back-to-blog": {
+      "en": "Back to blog",
+      "es": "Volver al blog"
+    },
+    "url": {
+      "en": "/blog",
+      "es": "/es/blog"
+    },
+    "months": {
+      "1": {
+        "en": "January",
+        "es": "Enero"
+      },
+      "2": {
+        "en": "February",
+        "es": "Febrero"
+      },
+      "3": {
+        "en": "March",
+        "es": "Marzo"
+      },
+      "4": {
+        "en": "April",
+        "es": "Abril"
+      },
+      "5": {
+        "en": "May",
+        "es": "Mayo"
+      },
+      "6": {
+        "en": "June",
+        "es": "Junio"
+      },
+      "7": {
+        "en": "July",
+        "es": "Julio"
+      },
+      "8": {
+        "en": "August",
+        "es": "Agosto"
+      },
+      "9": {
+        "en": "September",
+        "es": "Septiembre"
+      },
+      "10": {
+        "en": "October",
+        "es": "Octubre"
+      },
+      "11": {
+        "en": "November",
+        "es": "Noviembre"
+      },
+      "12": {
+        "en": "December",
+        "es": "Diciembre"
+      }
+    }
+  },
+  "previous-entries": {
+    "en": "Previous",
+    "es": "Anterior"
+  },
+  "next-entries": {
+    "en": "Next",
+    "es": "Siguiente"
+  },
+  "share": {
+    "en": "Share",
+    "es": "Compartir"
+  }
+}

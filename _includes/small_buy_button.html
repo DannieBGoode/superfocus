@@ -8,7 +8,7 @@
     {% assign category_is_not_empty = product_page.category | is_not_empty %}
     {% if category_is_not_empty %}
         {% assign category_page = product_page.category | get_page_by_file_path %}
-        data-item-categories="{{ category_page.title }}"
+        data-item-categories="{{ category_page.title[page.lang] }}"
     {% endif %}
     {% assign default_thumbnail_image_is_not_empty = product_page.default_thumbnail_image | is_not_empty %}{% if default_thumbnail_image_is_not_empty %} data-item-image="{{ product_page.default_thumbnail_image | relative_url }}" {% endif %}
     data-item-description="{{ product_page.description }}"

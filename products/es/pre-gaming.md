@@ -10,6 +10,8 @@ default_original_image: "/images/vitamins.webp"
 category: category/bigplants.md
 featured: true
 layout: product
+lang: es
+ref: pregaming
 ingredients:
 - caffeine
 - theaine
@@ -21,4 +23,4 @@ ingredients:
 
 # Nulla suscipit
 
-First health and performance gaming supplement in a form of a sugar-free tablet that you can suck or chew. Designed to help you kick ass while improving your body in the process. Naturally flavoured and coloured with blueberries and raspberries to keep your mind sharp and performance high.
+Primer suplemento de salud y rendimiento gamer diseñado para ayudarte a mejorar tu cuerpo en el proceso. Con sabor natural, mantendrá tu mente ágil y eficiente.

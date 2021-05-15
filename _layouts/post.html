@@ -1,7 +1,8 @@
 ---
-white_header: true
 layout: body
 ---
+
+{% assign translations-blog = site.data.translations.blog %}
 
 <main class="content dark">
 
@@ -15,11 +16,19 @@ layout: body
 	        		<div class="meta-element">
                         <ul>
                             <li class="back post-card-tags">
-                            	<a href="./blog" title="">
-                                	<span class="icon-arrow-left2"></span> Back to blog
+                            	<a href="{{ translations-blog.url[page.lang] }}" title="">
+                                	<span class="icon-arrow-left2"></span> {{ translations-blog.back-to-blog[page.lang] }}
                                 </a>
                             </li>
-                            <li class="post-card-tags">{{ page.date | date: "%B %d, %Y" }}</li>
+                            <li class="post-card-tags">
+                            	{% capture i18n_date %}
+									{% assign m = page.date | date: "%-m" %}
+									{{ translations-blog.months[m][page.lang] }}
+									{{ page.date | date: "%-d" }},
+									{{ page.date | date: "%Y" }}
+								{% endcapture %}
+								{{ i18n_date }}
+                        	</li>
                         </ul>
                     </div>
 		            <header class="post-card-header">

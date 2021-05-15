@@ -3,6 +3,7 @@ permalink: "/es/blog/"
 layout: body
 lang: es
 ref: blog
+white_header: true
 ---
 
 <main class="content dark">

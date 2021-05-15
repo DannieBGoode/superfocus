@@ -1,20 +1,20 @@
 ---
-title: Store
-permalink: "/store/"
+title: Tienda
+permalink: "/es/tienda/"
 sections:
 - type: store_section
   template: store_section
   section_id: store_section
 - type: featured_products_section
   template: featured_products_section
-  title: Best sellers
+  title: Lo más vendido
   section_id: featured_products_section
   icon: true
   featured_products:
-  - products/en/pre-gaming.md
-  - products/en/during-gaming.md
-  - products/en/post-gaming.md
-  - products/en/daily-health.md
+  - products/es/pre-gaming.md
+  - products/es/during-gaming.md
+  - products/es/post-gaming.md
+  - products/es/daily-health.md
 - type: promotion_section
   template: promotion_section
   section_id: promotion_section
@@ -25,12 +25,12 @@ sections:
   cta:
     type: action
     template: action
-    title: Discover
+    title: Descubre
     url: "/store"
     style: secondary
     arrow: true
 layout: store
 ref: store
-lang: en
+lang: es
 ---
 

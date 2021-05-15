@@ -1,6 +1,7 @@
 <div class="timeline-title">
-    <h2 class="section-heading">NATURAL INGREDIENTS</h2>
-    <h3 class="section-subheading text-muted">We have carefully selected 8 natural ingredients with each their own specific way of working and benefits.</h3>
+    {% assign translations-ingredients = site.data.translations.ingredients %}
+    <h2 class="section-heading">{{ translations-ingredients.natural-ingredients[page.lang] | upcase }}</h2>
+    <h3 class="section-subheading text-muted">{{ translations-ingredients.ingredients-introduction[page.lang] }}</h3>
 </div>
 
 <ul class="timeline">
@@ -15,11 +16,11 @@
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>{{ ingredientData.en.title }}</h4>
+                        <h4>{{ ingredientData[page.lang].title }}</h4>
                         <h4 class="subheading">Our Humble Beginnings</h4>
                     </div>
                     <div class="timeline-body">
-                        <p class="text-muted">{{ ingredientData.en.description }}</p>
+                        <p class="text-muted">{{ ingredientData[page.lang].description }}</p>
                     </div>
                 </div>
             </li>

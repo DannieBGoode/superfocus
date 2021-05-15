@@ -9,7 +9,7 @@
     {% assign category_is_not_empty = product_page.category | is_not_empty %}
     {% if category_is_not_empty %}
         {% assign category_page = product_page.category | get_page_by_file_path %}
-        data-item-categories="{{ category_page.title }}"
+        data-item-categories="{{ category_page.title[page.lang] }}"
     {% endif %}
     data-item-id="{{ product_page.id }}">
     <span class="button__icon">

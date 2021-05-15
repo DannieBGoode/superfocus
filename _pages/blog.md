@@ -23,13 +23,13 @@ ref: blog
 
               {% if paginator.total_pages > 1 %}
               <nav class="pagination">
-                  <h2 class="screen-reader-text">Navegación</h2>
+                  <h2 class="screen-reader-text">Navigation</h2>
                   {% if paginator.previous_page %}
-                  <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="newer-posts icon-chevron-left square fill-horizontal"><span class="screen-reader-text">Siguientes</span></a>
+                  <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="newer-posts icon-chevron-left square fill-horizontal"><span class="screen-reader-text">Next</span></a>
                   {% endif %}
-                  <span class="page-number">Página {{ paginator.page }} de {{ paginator.total_pages }}</span>
+                  <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
                   {% if paginator.next_page %}
-                  <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="older-posts icon-chevron-right square fill-horizontal"><span class="screen-reader-text">Anteriores</span></a>
+                  <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="older-posts icon-chevron-right square fill-horizontal"><span class="screen-reader-text">Previous</span></a>
                   {% endif %}
               </nav><!-- .pagination -->
               {% endif %}

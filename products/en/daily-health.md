@@ -8,6 +8,7 @@ default_thumbnail_image: "/images/clever-bee.webp"
 default_original_image: "/images/10530408-2964655389498413.webp"
 category: category/bigplants.md
 layout: product
+lang: en
 ---
 
 # Sed consectetur

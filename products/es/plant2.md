@@ -9,6 +9,7 @@ default_original_image: images/plant2-lg.webp
 category: category/cactuses.md
 layout: product
 featured: false
+lang: es
 ---
 
 # Integer porta

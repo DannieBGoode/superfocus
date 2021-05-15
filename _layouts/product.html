@@ -4,6 +4,8 @@ layout: body
 
     {% assign primary_bg_img_opacity_pct = site.bg_image_primary_opacity | default: 100 %}
     {% assign primary_bg_img_opacity = primary_bg_img_opacity_pct | times: 0.01 %}
+    {% assign translations-product = site.data.translations.product %}
+
     <main class="content">
         <section class="product content__row content__row--full-width">
             <div class="product__background-left">
@@ -21,7 +23,7 @@ layout: body
                     <svg width="20" height="10" viewBox="0 0 20 10" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2.739 4.309h17.011v1.284h-17.11l3.43 3.396-0.895 0.886-4.924-4.875 4.924-4.875 0.895 0.886-3.331 3.298z"></path>
                     </svg>
-                    see all products
+                    {{ translations-product.see-all-products[page.lang] }}
                 </a>
             </div>
             <figure class="product__figure">
@@ -37,7 +39,7 @@ layout: body
                 {% if category_is_not_empty %}
                     {% assign category_page = page.category | get_page_by_file_path %}
                     <h2 class="product__category">
-                        <a href="{{ category_page.url | relative_url }}"> {{ category_page.title }} </a>
+                        <a href="{{ category_page.url | relative_url }}"> {{ category_page.title[page.lang] }} </a>
                     </h2>
                 {% endif %}
                 <div class="product__price">
@@ -64,7 +66,7 @@ layout: body
         {% if category_is_not_empty %}
             <section class="content__row">
                 <h2 class="content__row-title">Related</h2>
-                {% assign product_pages = '/products' | get_pages | sort: 'order' | where_exp: "item", "item.id != page.id" %}
+                {% assign product_pages = '/products' | get_pages | sort: 'order' | where_exp: "item", "item.id != page.id" | where:"lang", page.lang %}
                 {% assign category_page = page.category | get_page_by_file_path %}
 
                 {% include product_grid.html product_pages=product_pages category_url=category_page.url cssClass='store__product-grid' site=site %}
@@ -75,6 +77,6 @@ layout: body
             <svg width="20" height="10" viewBox="0 0 20 10" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2.739 4.309h17.011v1.284h-17.11l3.43 3.396-0.895 0.886-4.924-4.875 4.924-4.875 0.895 0.886-3.331 3.298z"></path>
             </svg>
-            see all products
+            {{ translations-product.see-all-products[page.lang] }}
         </a>
     </main>

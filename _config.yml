@@ -30,31 +30,39 @@ bg_image_product: "/images/leaf.svg"
 main_menu:
 - type: action
   template: action
-  title-en: Store
-  title-es: Tienda
-  url-en: "/store"
-  url-es: "/es/"
+  title:
+    en: Store
+    es: Tienda
+  url:
+    en: "/store"
+    es: "/es/tienda"
   style: link
 - type: action
   template: action
-  title-en: About
-  title-es: Nosotros
-  url-en: "/about"
-  url-es: "/es/nosotros"
+  title:
+    en: About
+    es: Nosotros
+  url:
+    en: "/about"
+    es: "/es/nosotros"
   style: link
 - type: action
   template: action
-  title-en: FAQ
-  title-es: FAQ
-  url-en: "/faq"
-  url-es: "/es/faq"
+  title:
+    en: FAQ
+    es: FAQ
+  url:
+    en: "/faq"
+    es: "/es/faq"
   style: link
 - type: action
   template: action
-  title-en: Blog
-  title-es: Blog
-  url-en: "/blog"
-  url-es: "/es/blog"
+  title:
+    en: Blog
+    es: Blog
+  url:
+    en: "/blog"
+    es: "/es/blog"
   style: link
 footer_text: Copyright 2021 Superfocus Inc. All rights reserved.
 sass:

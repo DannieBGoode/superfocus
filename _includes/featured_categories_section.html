@@ -5,8 +5,8 @@
     {% assign categories = section.featured_categories %}
     {% for category in categories %}
         {% assign category_page = category | get_page_by_file_path %}
-        <h2 class="content__row-title">{{ category_page.title }}</h2>
-        {% assign product_pages = '/products' | get_pages | sort: 'order' %}
+        <h2 class="content__row-title">{{ category_page.title[page.lang] }}</h2>
+        {% assign product_pages = '/products' | get_pages | where:"lang", page.lang | sort: 'order' %}
         
         {% include product_grid.html product_pages=product_pages category_url=category_page.url site=site loading=loading %}
     {% endfor %}

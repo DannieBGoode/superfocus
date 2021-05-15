@@ -26,10 +26,10 @@ sections:
   light_title: true
   icon: true
   featured_products:
-  - products/pre-gaming.md
-  - products/during-gaming.md
-  - products/post-gaming.md
-  - products/daily-health.md
+  - products/es/pre-gaming.md
+  - products/es/during-gaming.md
+  - products/es/post-gaming.md
+  - products/es/daily-health.md
 - type: featured_categories_section
   template: featured_categories_section
   section_id: featured_categories_section
