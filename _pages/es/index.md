@@ -1,7 +1,7 @@
 ---
 title: Home
-description: Los mejores suplementos gaming y nootropicos. Para gamers.
 permalink: "/es/"
+description: Los mejores suplementos gaming y nootropicos. Para gamers.
 white_header: true
 sections:
 - type: hero_section
