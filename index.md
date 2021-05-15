@@ -1,5 +1,6 @@
 ---
 title: Home
+description: Best gaming supplements and nootropics
 white_header: true
 sections:
 - type: hero_section

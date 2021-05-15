@@ -1,4 +1,14 @@
 {
+  "language": {
+    "en": {
+      "en": "English",
+      "es": "Inglés"
+    },
+    "es": {
+      "en": "Spanish",
+      "es": "Español"
+    }
+  },
   "product": {
     "see-all-products": {
       "en": "See All Products",
@@ -6,7 +16,17 @@
     },
     "add-to-cart": {
       "en": "Add to cart",
-      "es": "Añadir al carro"
+      "es": "Añadir a la cesta"
+    }
+  },
+  "topnav": {
+    "check-cart": {
+      "en": "Check cart",
+      "es": "Ver cesta"
+    },
+    "menu": {
+      "en": "Open Menu",
+      "es": "Abrir Menú"
     }
   },
   "ingredients": {

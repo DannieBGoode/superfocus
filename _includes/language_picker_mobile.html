@@ -1,17 +1,19 @@
 <div class="language-picker mobile">
     <div class="lang-menu">
 	    <ul class="mobile">
+	    	{% assign translations-language = site.data.translations.language %}
+	    	{{ translations-general }}
 			{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
 			{% for post in posts %}
 		        <li>
-		            <a href="{{ post.url }}" class="{{ post.lang }}"></a>
+		            <a href="{{ post.url }}" class="{{ post.lang }}" aria-label="{{ translations-language[post.lang][page.lang] }}"></a>
 		        </li>
 			{% endfor %}
 
 			{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 			{% for page in pages %}
 		        <li>
-		            <a href="{{ page.url }}" class="{{ page.lang }}"></a>
+		            <a href="{{ page.url }}" class="{{ page.lang }}" aria-label="{{ translations-language[page.lang][page.lang] }}"></a>
 		        </li>
 			{% endfor %}
 	    </ul>

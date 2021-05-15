@@ -2,6 +2,7 @@
 {% assign component = include.component %}
 
 <button class="{{ component }}__item-buy button button--icon-only snipcart-add-item"
+    aria-label="{{ translations-product.add-to-cart[page.lang] }}"
     data-item-name="{{ product_page.title }}"
     data-item-url="{{ product_page.url }}"
     data-item-price="{{ product_page.price }}"
