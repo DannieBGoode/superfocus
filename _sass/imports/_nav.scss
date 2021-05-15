@@ -127,11 +127,12 @@
   &.display {
     @media only screen and (max-width: $tablet) {
       transform: unset;
-      transition: background-color 0.5s, transform 1s;
+      transition: background-color 0.5s, transform 1s, padding-top 0.5s;
     }
   }
   &.fixed-color {
     background-color: rgba(31,36,47,.7);
+    padding-top: 5px;
   }
 }
 
