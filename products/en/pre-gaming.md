@@ -1,8 +1,7 @@
 ---
 title: Pre-Gaming
 id: '1'
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit
-  velit lectus, vitae efficitur quam mollis eget. Integer porta at nisl eget tincidunt.
+description: Gaming supplements before gaming session, for gaming, studying o working. Máximum concentration.
 price: '49.40'
 order: 1
 default_thumbnail_image: "/images/spectacular-thyme.webp"

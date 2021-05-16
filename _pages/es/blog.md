@@ -1,5 +1,7 @@
 ---
 permalink: "/es/blog/"
+title: "Superfocus Blog Español"
+description: "Suplementos gamers e información"
 layout: body
 lang: es
 ref: blog
