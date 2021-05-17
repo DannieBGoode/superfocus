@@ -75,7 +75,7 @@
                             {% assign isActive = true %}{% else %}
                             {% assign isActive = false %}{% endif %}
                         <li class="hamburger__nav-item">
-                            <a href="{{ {{ item.url[page.lang] }} | relative_url }}" class="hamburger__nav-link{% assign isActive_is_not_empty = isActive | is_not_empty %}{% if isActive_is_not_empty %} hamburger__nav-link--active{% endif %}">
+                            <a href="{{ item.url[page.lang] | relative_url }}" class="hamburger__nav-link{% assign isActive_is_not_empty = isActive | is_not_empty %}{% if isActive_is_not_empty %} hamburger__nav-link--active{% endif %}">
                                 {{ item.title[page.lang] }}
                             </a>
                         </li>
