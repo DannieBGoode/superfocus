@@ -20,6 +20,6 @@ ingredients:
 - mucuna
 ---
 
-# Nulla suscipit
+## Nulla suscipit
 
 First health and performance gaming supplement in a form of a sugar-free tablet that you can suck or chew. Designed to help you kick ass while improving your body in the process. Naturally flavoured and coloured with blueberries and raspberries to keep your mind sharp and performance high.

@@ -1,5 +1,6 @@
 ---
 title: Tienda
+description: Los mejores suplementos gamer y para estudiar
 permalink: "/es/tienda/"
 sections:
 - type: store_section

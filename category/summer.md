@@ -4,5 +4,6 @@ title:
   es: Plantas de verano
 order: 4
 layout: category
+ref: summer
 ---
 

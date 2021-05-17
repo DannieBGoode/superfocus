@@ -1,5 +1,6 @@
 ---
 title: Store
+description: The best gaming supplements in the market
 permalink: "/store/"
 sections:
 - type: store_section

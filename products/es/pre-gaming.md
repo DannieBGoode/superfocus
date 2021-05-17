@@ -20,6 +20,6 @@ ingredients:
 - mucuna
 ---
 
-# Nulla suscipit
+## Nulla suscipit
 
 Primer suplemento de salud y rendimiento gamer diseñado para ayudarte a mejorar tu cuerpo en el proceso. Con sabor natural, mantendrá tu mente ágil y eficiente.
