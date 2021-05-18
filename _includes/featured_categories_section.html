@@ -2,7 +2,7 @@
 {% assign loading = section.loading %}
 
 <section class="content__row" data-id="{{ section.section_id }}">
-    {% assign categories = section.featured_categories %}
+    {% assign categories = section.featured_categories | where: "lang", page.lang %}
     {% for category in categories %}
         {% assign category_page = category | get_page_by_file_path %}
         <h2 class="content__row-title">{{ category_page.title[page.lang] }}</h2>

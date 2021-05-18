@@ -7,7 +7,7 @@ price: '220.00'
 order: 5
 default_thumbnail_image: "/images/magnificent-mango.webp"
 default_original_image: "/images/10530152-1604620650561058.webp"
-category: category/bigplants.md
+category: category/en/bigplants.md
 featured: true
 layout: product
 lang: en

@@ -6,7 +6,7 @@ price: '24.99'
 order: 4
 default_thumbnail_image: images/plant4.webp
 default_original_image: images/plant4-lg.webp
-category: category/cactuses.md
+category: category/es/cactuses.md
 layout: product
 lang: es
 ref: plant4

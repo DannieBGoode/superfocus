@@ -6,7 +6,7 @@ price: '49.40'
 order: 1
 default_thumbnail_image: "/images/spectacular-thyme.webp"
 default_original_image: "/images/vitamins.webp"
-category: category/bigplants.md
+category: category/es/bigplants.md
 featured: true
 layout: product
 lang: es

@@ -6,7 +6,7 @@ price: '150.00'
 order: 3
 default_thumbnail_image: "/images/12552274-6724824414590685.webp"
 default_original_image: "/images/12552274-6724824414590685.webp"
-category: category/cactuses.md
+category: category/en/cactuses.md
 featured: true
 layout: product
 lang: en

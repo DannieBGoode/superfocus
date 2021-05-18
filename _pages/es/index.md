@@ -35,8 +35,8 @@ sections:
   template: featured_categories_section
   section_id: featured_categories_section
   featured_categories:
-  - category/bigplants.md
-  - category/cactuses.md
+  - category/es/bigplants.md
+  - category/es/cactuses.md
 - type: testimonials_section
   template: testimonials_section
   section_id: testimonials_section

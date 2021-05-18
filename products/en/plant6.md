@@ -6,7 +6,7 @@ price: '100.00'
 order: 6
 default_thumbnail_image: images/plant6.webp
 default_original_image: images/plant6-lg.webp
-category: category/bigplants.md
+category: category/en/bigplants.md
 layout: product
 lang: en
 ref: plant6

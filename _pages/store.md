@@ -8,7 +8,7 @@ sections:
   section_id: store_section
 - type: featured_products_section
   template: featured_products_section
-  title: Best sellers
+  title: Lo más vendido
   section_id: featured_products_section
   icon: true
   featured_products:

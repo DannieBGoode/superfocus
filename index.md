@@ -35,8 +35,8 @@ sections:
   section_id: featured_categories_section
   loading: lazy
   featured_categories:
-  - category/bigplants.md
-  - category/cactuses.md
+  - category/en/bigplants.md
+  - category/en/cactuses.md
 - type: testimonials_section
   template: testimonials_section
   section_id: testimonials_section

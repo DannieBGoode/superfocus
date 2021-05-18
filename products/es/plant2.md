@@ -6,7 +6,7 @@ price: '99.00'
 order: 2
 default_thumbnail_image: images/plant2.webp
 default_original_image: images/plant2-lg.webp
-category: category/cactuses.md
+category: category/es/cactuses.md
 layout: product
 featured: false
 lang: es

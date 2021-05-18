@@ -6,7 +6,7 @@ price: '18.90'
 order: 7
 default_thumbnail_image: "/images/clever-bee.webp"
 default_original_image: "/images/10530408-2964655389498413.webp"
-category: category/bigplants.md
+category: category/es/bigplants.md
 layout: product
 lang: es
 ref: daily-health

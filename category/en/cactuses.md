@@ -1,9 +1,8 @@
 ---
-title: 
-  en: Cactuses
-  es: Cactuses
+title: Cactuses
 order: 2
 layout: category
 ref: cactuses
+lang: en
 ---
 
