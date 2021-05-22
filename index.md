@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Superfocus - Gaming Supplements and Nootropics
 description: Best gaming supplements and nootropics
 white_header: true
 sections:
