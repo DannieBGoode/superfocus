@@ -4,8 +4,8 @@ id: '1'
 description: Suplementos gamer para ante de jugar, antes de estudiar o antes de trabajar. Concentración máxima.
 price: '49.40'
 order: 1
-default_thumbnail_image: "/images/spectacular-thyme.webp"
-default_original_image: "/images/vitamins.webp"
+default_thumbnail_image: "/images/pregaming.webp"
+default_original_image: "/images/pregaming.webp"
 category: category/es/bigplants.md
 featured: true
 layout: product
