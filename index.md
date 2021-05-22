@@ -1,6 +1,6 @@
 ---
 title: Superfocus - Gaming Supplements and Nootropics
-description: Best gaming supplements and nootropics
+description: Best gaming supplements and nootropics. Mental enhancements.
 white_header: true
 sections:
 - type: hero_section

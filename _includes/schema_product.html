@@ -1,0 +1,47 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "{{ page.title }}",
+    "image": [
+         "{{ site.url}}{{ page.default_original_image}} "
+    ],
+    "description": "{{ page.description }}",
+    "sku": "8888888888",
+    "mpn": "777777",
+    "brand": {
+        "@type": "Brand",
+        "name": "{{ site.title }}"
+    },
+    "review": {
+        "@type": "Review",
+        "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "{{ site.title }}"
+        }
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "64"
+    },
+    "offers": {
+        "@type": "Offer",
+        "url": "{{ site.url }}{{ page.url }}",
+        "priceCurrency": "EUR",
+        "price": "{{ page.price }}",
+        "priceValidUntil": "2020-12-31",
+        "itemCondition": "https://schema.org/NewCondition,
+        "availability": "https://schema.org/InStock",
+        "seller": {
+            "@type": "Organization",
+            "name": "{{ site.title }}"
+        }
+    }
+}
+</script>

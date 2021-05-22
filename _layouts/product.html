@@ -6,6 +6,8 @@ layout: body
     {% assign primary_bg_img_opacity = primary_bg_img_opacity_pct | times: 0.01 %}
     {% assign translations-product = site.data.translations.product %}
 
+    {% include schema_product.html %}
+
     <main class="content">
         <section class="product content__row content__row--full-width">
             <div class="product__background-left">

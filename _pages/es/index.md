@@ -1,7 +1,7 @@
 ---
 title: Superfocus - Suplementos Gaming y Nootropicos.
 permalink: "/es/"
-description: Los mejores suplementos gaming y nootropicos. Para gamers.
+description: Los mejores suplementos gaming y nootrópicos para gamers, estudiantes y trabajadores.
 white_header: true
 sections:
 - type: hero_section

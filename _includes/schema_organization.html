@@ -1,0 +1,51 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [{
+        "@type": "Organization",
+        "@id": "{{ site.url }}/#organization",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}",
+        "sameAs": [],
+        "logo": {
+            "@type": "ImageObject",
+            "@id": "{{ site.url }}/#logo",
+            "inLanguage": "en-US",
+            "url": "{{ site.url }}/{{ site.logo_dark }}",
+            "caption": "{{ site.title }}"
+        },
+        "image": {
+            "@id": "{{ site.url }}/#logo"
+        }
+    }, {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}",
+        "name": "{{ site.title }}\u00ae",
+        "description": "{{ page.description }}",
+        "publisher": {
+            "@id": "{{ site.url }}/#organization"
+        },
+        "inLanguage": "{{ page.lang }}"
+    }, {
+        "@type": "WebPage",
+        "@id": "{{ site.url }}/#webpage",
+        "url": "{{ site.url }}",
+        "name": "{{ page.title }}",
+        "isPartOf": {
+            "@id": "{{ site.url }}/#website"
+        },
+        "about": {
+            "@id": "{{ site.url }}/#organization"
+        },
+        "datePublished": "2021-05-12T11:55:10+00:00",
+        "dateModified": "2021-05-22T08:52:52+00:00",
+        "description": "{{ page.description }}",
+        "inLanguage": "en-US",
+        "potentialAction": [{
+            "@type": "ReadAction",
+            "target": ["{{ site.url }}"]
+        }]
+    }]
+}
+</script>
