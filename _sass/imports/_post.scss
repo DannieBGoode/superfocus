@@ -180,3 +180,42 @@
 		}
 	}
 }
+
+/**
+ * 3.2 Comments
+ * ----------------------------------------------------------------------------
+ */
+
+.comments-area {
+    background-color: $white;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    max-width: 1200px;
+    margin: 0 20px 40px;
+    @media only screen and (max-width: $tablet) {
+        width: 100%;
+    }
+}
+
+.comments-title {
+    border-bottom: 2px solid #ededed;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.comments-inner {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+    .comments-inner {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

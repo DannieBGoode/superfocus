@@ -7,71 +7,53 @@ layout: body
 {% assign translations-blog = site.data.translations.blog %}
 
 <main class="content dark">
-
-	<article class="post-card single {{ page.class }}{% unless page.banner_image %} no-image{% endunless %}">
-	    {% if page.banner_image %}
-            <div class="post-card-image" style="background-image: url({{ page.banner_image }})"></div>
-	    {% endif %}
-	    <div class="post-card-content">
-	        <div class="post-body">
-	        	<div class="main-column">
-	        		<div class="meta-element">
-                        <ul>
-                            <li class="back post-card-tags">
-                            	<a href="{{ translations-blog.url[page.lang] }}" title="">
-                                	<span class="icon-arrow-left2"></span> {{ translations-blog.back-to-blog[page.lang] }}
-                                </a>
-                            </li>
-                            <li class="post-card-tags">
-                            	{% capture i18n_date %}
-									{% assign m = page.date | date: "%-m" %}
-									{{ translations-blog.months[m][page.lang] }}
-									{{ page.date | date: "%-d" }},
-									{{ page.date | date: "%Y" }}
-								{% endcapture %}
-								{{ i18n_date }}
-                        	</li>
-                        </ul>
-                    </div>
-		            <header class="post-card-header">
-		                <h1 class="post-card-title">{{ page.title }}</h1>
-		            </header>
-	        		{{ page.content }}	
-	        	</div>
-	        	<div class="side-column">
-		        	<div class="sticky">
-		        		<div class="share-title post-card-tags">SHARE POST</div>
-	        			<div class="side-body">
-		        		{%  include progress_ring.html %}
-		        		{%  include share.html %}
-		        		</div>
+	<div>
+		<article class="post-card single {{ page.class }}{% unless page.banner_image %} no-image{% endunless %}">
+		    {% if page.banner_image %}
+	            <div class="post-card-image" style="background-image: url({{ page.banner_image }})"></div>
+		    {% endif %}
+		    <div class="post-card-content">
+		        <div class="post-body">
+		        	<div class="main-column">
+		        		<div class="meta-element">
+	                        <ul>
+	                            <li class="back post-card-tags">
+	                            	<a href="{{ translations-blog.url[page.lang] }}" title="">
+	                                	<span class="icon-arrow-left2"></span> {{ translations-blog.back-to-blog[page.lang] }}
+	                                </a>
+	                            </li>
+	                            <li class="post-card-tags">
+	                            	{% capture i18n_date %}
+										{% assign m = page.date | date: "%-m" %}
+										{{ translations-blog.months[m][page.lang] }}
+										{{ page.date | date: "%-d" }},
+										{{ page.date | date: "%Y" }}
+									{% endcapture %}
+									{{ i18n_date }}
+	                        	</li>
+	                        </ul>
+	                    </div>
+			            <header class="post-card-header">
+			                <h1 class="post-card-title">{{ page.title }}</h1>
+			            </header>
+		        		{{ page.content }}	
 		        	</div>
-	        	</div>
-	        	
-	        </div>
-	    </div>
-	</article>
+		        	<div class="side-column">
+			        	<div class="sticky">
+			        		<div class="share-title post-card-tags">SHARE POST</div>
+		        			<div class="side-body">
+			        		{%  include progress_ring.html %}
+			        		{%  include share.html %}
+			        		</div>
+			        	</div>
+		        	</div>
+		        	
+		        </div>
+		    </div>
 
-	<section class="article-comments">
-		<form name="contact" method="POST" data-netlify="true">
-		  <p>
-		    <label>Your Name: <input type="text" name="name" /></label>   
-		  </p>
-		  <p>
-		    <label>Your Email: <input type="email" name="email" /></label>
-		  </p>
-		  <p>
-		    <label>Your Role: <select name="role[]" multiple>
-		      <option value="leader">Leader</option>
-		      <option value="follower">Follower</option>
-		    </select></label>
-		  </p>
-		  <p>
-		    <label>Message: <textarea name="message"></textarea></label>
-		  </p>
-		  <p>
-		    <button type="submit">Send</button>
-		  </p>
-		</form>
-	</section>
+		</article>
+
+		{% include comments.html %}
+	</div>
+
 </main>
