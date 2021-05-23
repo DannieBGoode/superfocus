@@ -4,7 +4,7 @@
     "@type": "Product",
     "name": "{{ page.title }}",
     "image": [
-         "{{ site.url}}{{ page.default_original_image}} "
+         "{{ site.url}}{{ page.default_original_image}}"
     ],
     "description": "{{ page.description }}",
     "sku": "8888888888",
@@ -50,3 +50,11 @@
 <meta property="og:type" content="website" />
 <meta property="og:image" content="{{ site.url }}/{{ page.default_original_image }}" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="{{ site.url }}">
+<meta property="twitter:url" content="{{ site.url }}">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:image" content="{{ site.url}}{{ page.default_original_image}}">
