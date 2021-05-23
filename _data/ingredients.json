@@ -2,10 +2,12 @@
 	"bacopa": {
 		"es": {
 			"title": "BACOPA MONNIERI",
+			"subtitle": "Mejora tu memoria y concentración",
 			"description": "Utilizamos extracto concentrado de Bacopa al 45% de Bacosidos. Utilizada durante miles de años en la medicina ayuvérdica para multiples usos relacionados con el cerebro"
 		},
 		"en": {
 			"title": "BACOPA MONNIERI",
+			"subtitle": "Improves your memory and concentration",
 			"description": "We use Bacopa concentrated extract to 45% of Bacosidos. Used for thousands of years in Ayurvedic medicine for multiple uses related to the brain."
 		},
 		"img": "https://www.alzdiscovery.org/uploads/cognitive_vitality/Report_Bacopa-monnieri.jpg",
@@ -14,10 +16,12 @@
 	"ginseng": {
 		"es": {
 			"title": "GINGKO BILOBA",
+			"subtitle": "Mejora el rendimiento mental y cognitivo",
 			"description": "Arbol originario de China desde hace más de 270 millones de años. Gran aporte de flavonoides y efectos vasodilatadores. Aporta beneficios reconocidos para las diferentes medicinas del mundo. Utilizamos extracto de hojas secas al 24% de heteróxidos platónicos."
 		},
 		"en": {
 			"title": "GINGKO BILOBA",
+			"subtitle": "Improves mental and cognitive performance.",
 			"description": "Also known as Siberian ginseng. Believed to be the most potent adaptogenic herb and a strong antioxidant (protects the cells in your body from free radicals). The effects of Siberian Ginseng were researched heavily by cyclists and Olympic marathoners, as well as astronauts, soldiers and sailors."
 		},
 		"img": "https://canprev.ca/wp-content/uploads/2016/01/ginseng-1024x887-800x693.jpg",
@@ -26,10 +30,12 @@
 	"caffeine": {
 		"es": {
 			"title": "Cafeina",
+			"subtitle": "Te da energía y aumenta la atención",
 			"description": "Utilizamos semillas de Coffea Arábica de la máxima pureza y calidad . La combinación de Teanina y Cafeína anhidra, potencia los efectos de ambas sustancias y reduce los efectos secundarios relacinados con la cafeína (agitación, nerviosismo) . Uno de los combustibles de Pandora que actúa en sinergia con el resto de ingredientes."
 		},
 		"en": {
 			"title": "Caffeine",
+			"subtitle": "Gives you energy and improves alertness",
 			"description": "Caffeine helps you lose weight by increasing the amount of energy your body burns throughout the day also improves strength, promotes muscle endurance, and enhances anaerobic performance."
 		},
 		"img": "https://5.imimg.com/data5/FJ/JU/MY-45122889/roasted-coffee-beans-500x500.jpg",
@@ -38,10 +44,12 @@
 	"theaine": {
 		"es": {
 			"title": "Teanina",
+			"subtitle": "Potencia los puntos positivos y contrarresta los negativos de la cafeina",
 			"description": "Utilizamos semillas de Coffea Arábica de la máxima pureza y calidad . La combinación de Teanina y Cafeína anhidra, potencia los efectos de ambas sustancias y reduce los efectos secundarios relacinados con la cafeína (agitación, nerviosismo) . Uno de los combustibles de Pandora que actúa en sinergia con el resto de ingredientes."
 		},
 		"en": {
 			"title": "Theanine",
+			"subtitle": "Increases caffeine's positive effects while decreasing its negative ones.",
 			"description": "Caffeine helps you lose weight by increasing the amount of energy your body burns throughout the day also improves strength, promotes muscle endurance, and enhances anaerobic performance."
 		},
 		"img": "https://image.freepik.com/foto-gratis/hojas-te-verde_52256-3.jpg",
@@ -50,10 +58,12 @@
 	"rhodolia": {
 		"es": {
 			"title": "Rhodiola",
+			"subtitle": "",
 			"description": "Utilizamos semillas de Coffea Arábica de la máxima pureza y calidad . La combinación de Teanina y Cafeína anhidra, potencia los efectos de ambas sustancias y reduce los efectos secundarios relacinados con la cafeína (agitación, nerviosismo) . Uno de los combustibles de Pandora que actúa en sinergia con el resto de ingredientes."
 		},
 		"en": {
 			"title": "Rhodiola",
+			"subtitle": "",
 			"description": "Caffeine helps you lose weight by increasing the amount of energy your body burns throughout the day also improves strength, promotes muscle endurance, and enhances anaerobic performance."
 		},
 		"img": "https://soycomocomo.es/media/2017/10/rhodiola-planta.jpg",
@@ -62,10 +72,12 @@
 	"mucuna": {
 		"es": {
 			"title": "Mucuna Puriens",
+			"subtitle": "",
 			"description": "Utilizamos semillas de Coffea Arábica de la máxima pureza y calidad . La combinación de Teanina y Cafeína anhidra, potencia los efectos de ambas sustancias y reduce los efectos secundarios relacinados con la cafeína (agitación, nerviosismo) . Uno de los combustibles de Pandora que actúa en sinergia con el resto de ingredientes."
 		},
 		"en": {
 			"title": "Mucuna Puriens",
+			"subtitle": "",
 			"description": "Caffeine helps you lose weight by increasing the amount of energy your body burns throughout the day also improves strength, promotes muscle endurance, and enhances anaerobic performance."
 		},
 		"img": "/images/ingredients/mucuna.webp",
