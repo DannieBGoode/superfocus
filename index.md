@@ -56,9 +56,9 @@ sections:
   template: promotion_section
   section_id: promotion_section
   loading: lazy
-  title: A new home interior for summer
-  subtitle: from $149.99
-  image: images/promo.webp
+  title: A new way of competing
+  subtitle: from 49.99€
+  image: images/controller.webp
   background_image: images/leaf.svg
   cta:
     type: action
