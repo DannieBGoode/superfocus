@@ -56,7 +56,7 @@ sections:
   template: promotion_section
   section_id: promotion_section
   loading: lazy
-  title: A new way of competing
+  title: A new way of gaming
   subtitle: from 49.99€
   image: images/controller.webp
   background_image: images/leaf.svg

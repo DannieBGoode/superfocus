@@ -19,7 +19,7 @@ sections:
 - type: promotion_section
   template: promotion_section
   section_id: promotion_section
-  title: A new way of competing
+  title: A new way of gaming
   subtitle: from $149.99
   image: images/controller.webp
   background_image: "/images/leaf.svg"

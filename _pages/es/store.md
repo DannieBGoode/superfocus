@@ -19,7 +19,7 @@ sections:
 - type: promotion_section
   template: promotion_section
   section_id: promotion_section
-  title: Una nueva forma de competir
+  title: Una nueva forma de jugar
   subtitle: desde 49.99€
   image: images/controller.webp
   background_image: "/images/leaf.svg"
