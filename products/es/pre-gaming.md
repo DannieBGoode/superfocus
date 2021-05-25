@@ -13,10 +13,10 @@ lang: es
 ref: pregaming
 ingredients:
 - caffeine
-- theaine
+- theanine
 - bacopa
 - ginseng
-- rhodolia
+- rhodiola
 - mucuna
 ---
 

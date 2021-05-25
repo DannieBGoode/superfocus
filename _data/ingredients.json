@@ -10,7 +10,7 @@
 			"subtitle": "Improves your memory and concentration",
 			"description": "We use Bacopa concentrated extract to 45% of Bacosidos. Used for thousands of years in Ayurvedic medicine for multiple uses related to the brain."
 		},
-		"img": "https://www.alzdiscovery.org/uploads/cognitive_vitality/Report_Bacopa-monnieri.jpg",
+		"img": "/images/ingredients/bacopa.webp",
 		"id": "bacopa"
 	},
 	"ginseng": {
@@ -24,7 +24,7 @@
 			"subtitle": "Improves mental and cognitive performance.",
 			"description": "Also known as Siberian ginseng. Believed to be the most potent adaptogenic herb and a strong antioxidant (protects the cells in your body from free radicals). The effects of Siberian Ginseng were researched heavily by cyclists and Olympic marathoners, as well as astronauts, soldiers and sailors."
 		},
-		"img": "https://canprev.ca/wp-content/uploads/2016/01/ginseng-1024x887-800x693.jpg",
+		"img": "/images/ingredients/gingko.webp",
 		"id": "ginseng"
 	},
 	"caffeine": {
@@ -38,7 +38,7 @@
 			"subtitle": "Gives you energy and improves alertness",
 			"description": "Caffeine helps you lose weight by increasing the amount of energy your body burns throughout the day also improves strength, promotes muscle endurance, and enhances anaerobic performance."
 		},
-		"img": "https://5.imimg.com/data5/FJ/JU/MY-45122889/roasted-coffee-beans-500x500.jpg",
+		"img": "/images/ingredients/caffeine.webp",
 		"id": "caffeine"
 	},
 	"theaine": {
@@ -52,8 +52,8 @@
 			"subtitle": "Increases caffeine's positive effects while decreasing its negative ones.",
 			"description": "Caffeine helps you lose weight by increasing the amount of energy your body burns throughout the day also improves strength, promotes muscle endurance, and enhances anaerobic performance."
 		},
-		"img": "https://image.freepik.com/foto-gratis/hojas-te-verde_52256-3.jpg",
-		"id": "theaine"
+		"img": "/images/ingredients/theanine.webp",
+		"id": "theanine"
 	},
 	"rhodolia": {
 		"es": {
@@ -66,8 +66,8 @@
 			"subtitle": "",
 			"description": "Caffeine helps you lose weight by increasing the amount of energy your body burns throughout the day also improves strength, promotes muscle endurance, and enhances anaerobic performance."
 		},
-		"img": "https://soycomocomo.es/media/2017/10/rhodiola-planta.jpg",
-		"id": "rhodolia"
+		"img": "/images/ingredients/rhodiola.webp",
+		"id": "rhodiola"
 	},
 	"mucuna": {
 		"es": {
