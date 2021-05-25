@@ -31,15 +31,6 @@ main_menu:
 - type: action
   template: action
   title:
-    en: Store
-    es: Tienda
-  url:
-    en: "/store"
-    es: "/es/tienda"
-  style: link
-- type: action
-  template: action
-  title:
     en: About
     es: Nosotros
   url:
