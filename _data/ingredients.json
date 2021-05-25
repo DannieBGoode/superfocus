@@ -41,7 +41,7 @@
 		"img": "/images/ingredients/caffeine.webp",
 		"id": "caffeine"
 	},
-	"theaine": {
+	"theanine": {
 		"es": {
 			"title": "Teanina",
 			"subtitle": "Potencia los puntos positivos y contrarresta los negativos de la cafeina",
@@ -55,7 +55,7 @@
 		"img": "/images/ingredients/theanine.webp",
 		"id": "theanine"
 	},
-	"rhodolia": {
+	"rhodiola": {
 		"es": {
 			"title": "Rhodiola",
 			"subtitle": "",
