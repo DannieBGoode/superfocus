@@ -12,6 +12,9 @@
   height: 50px;
   width: 50px;
   margin: auto;
+  &:hover {
+    background-color: #ddd;
+  }
   .button-up {
     position: absolute;
   }
