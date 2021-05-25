@@ -15,8 +15,8 @@ sections:
   actions:
   - type: action
     template: action
-    title: See all items
-    url: "/store"
+    title: See Superfocus
+    url: "/en/pre-gaming"
     style: primary
     arrow: true
 - type: featured_products_section
@@ -26,10 +26,7 @@ sections:
   light_title: true
   icon: true
   featured_products:
-  - products/en/pre-gaming.md
-  - products/en/during-gaming.md
-  - products/en/post-gaming.md
-  - products/en/daily-health.md
+  - en/pre-gaming
 - type: featured_categories_section
   template: featured_categories_section
   section_id: featured_categories_section

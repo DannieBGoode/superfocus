@@ -1,5 +1,6 @@
 ---
 title: Pre-Gaming
+permalink: en/pre-gaming
 id: '1'
 description: Gaming supplements before gaming session, for gaming, studying o working. Máximum concentration.
 price: '49.40'

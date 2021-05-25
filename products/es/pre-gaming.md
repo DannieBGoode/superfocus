@@ -1,6 +1,7 @@
 ---
 title: Suplemento Pre-Gaming
 id: '1'
+permalink: es/pre-gaming
 description: Suplementos gamer para ante de jugar, antes de estudiar o antes de trabajar. Concentración máxima.
 price: '49.40'
 order: 1

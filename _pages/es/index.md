@@ -17,7 +17,7 @@ sections:
   - type: action
     template: action
     title: Ver Todos
-    url: "/store"
+    url: "/es/pre-gaming"
     style: primary
     arrow: true
 - type: featured_products_section
@@ -28,9 +28,6 @@ sections:
   icon: true
   featured_products:
   - products/es/pre-gaming.md
-  - products/es/during-gaming.md
-  - products/es/post-gaming.md
-  - products/es/daily-health.md
 - type: featured_categories_section
   template: featured_categories_section
   section_id: featured_categories_section
@@ -40,7 +37,7 @@ sections:
 - type: testimonials_section
   template: testimonials_section
   section_id: testimonials_section
-  title: Testimonios
+  title: Opiniones
   testimonials:
   - text: I didn't know the Snipcart guys were into herbs as well! How beautiful is
       that Planty theme. I'm going to launch a killer JAMstack e-commerce store using
