@@ -27,7 +27,7 @@ sections:
   light_title: true
   icon: true
   featured_products:
-  - products/es/pre-gaming.md
+  - es/pre-gaming
 - type: featured_categories_section
   template: featured_categories_section
   section_id: featured_categories_section
