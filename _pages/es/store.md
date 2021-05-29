@@ -12,7 +12,7 @@ sections:
   section_id: featured_products_section
   icon: true
   featured_products:
-  - products/es/pre-gaming.md
+  - products/es/power.md
   - products/es/during-gaming.md
   - products/es/post-gaming.md
   - products/es/daily-health.md

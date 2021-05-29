@@ -16,7 +16,7 @@ sections:
   - type: action
     template: action
     title: See Superfocus
-    url: "/en/pre-gaming"
+    url: "/en/power"
     style: primary
     arrow: true
 - type: featured_products_section
@@ -26,7 +26,7 @@ sections:
   light_title: true
   icon: true
   featured_products:
-  - en/pre-gaming
+  - en/power
 - type: featured_categories_section
   template: featured_categories_section
   section_id: featured_categories_section

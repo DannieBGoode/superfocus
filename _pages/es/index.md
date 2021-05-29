@@ -17,7 +17,7 @@ sections:
   - type: action
     template: action
     title: Ver Todos
-    url: "/es/pre-gaming"
+    url: "/es/power"
     style: primary
     arrow: true
 - type: featured_products_section
@@ -27,7 +27,7 @@ sections:
   light_title: true
   icon: true
   featured_products:
-  - es/pre-gaming
+  - es/power
 - type: featured_categories_section
   template: featured_categories_section
   section_id: featured_categories_section

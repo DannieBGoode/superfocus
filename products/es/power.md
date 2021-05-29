@@ -1,7 +1,8 @@
 ---
-title: Suplemento Pre-Gaming
+title: Power
+seo_title: Power Suplemento Noótropico
 id: '1'
-permalink: es/pre-gaming
+permalink: es/power
 description: Suplementos gamer para ante de jugar, antes de estudiar o antes de trabajar. Concentración máxima.
 price: '49.40'
 order: 1

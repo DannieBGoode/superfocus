@@ -2,13 +2,14 @@
 <html lang="en">
     <head>    
 
+        {% assign title = page.seo_title | default: page.title %}
         <title>
-            {{ page.title }}
+            {{ title }} | {{ site.title }}
         </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="description" content="{{page.description}}">
+        <meta name="description" content="{{ page.description }}">
         <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.18/default/snipcart.css" />
         <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
         <link rel="icon" type="image/png" href="{{ site.favicon | relative_url }}">
