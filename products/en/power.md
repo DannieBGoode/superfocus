@@ -14,10 +14,12 @@ layout: product
 lang: en
 ref: pregaming
 ingredients:
+- acetyl-l-carnitine
 - caffeine
 - theanine
 - bacopa
 - ginseng
+- l-tyrosine
 - rhodiola
 - mucuna
 ---

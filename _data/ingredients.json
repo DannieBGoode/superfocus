@@ -1,4 +1,18 @@
 {
+	"acetyl-l-carnitine": {
+		"es": {
+			"title": "Acetyl-L-Carnitina",
+			"subtitle": "Mejora el estado de ánimo, la atención y las abilidades cognitivas generales además de luchar contra la fatiga.",
+			"description": "La L-Carnitina es un amino acido presente en la carne roja, aguacate y espárragos entre otros, que es ingerido en cantidades medias de 1mg al día, muy inferior de la dosis recomendada para aprovechar sus efectos positivos."
+		},
+		"en": {
+			"title": "Acetyl-L-Carnitine",
+			"subtitle": "Improves general conginitive ability, mood, alertness and battles mental fatigue.",
+			"description": "L-Carnitine is an amino acid present in red meat, avocados or asparagus, which is normally taken in quantities of 1mg/day, which is inferior to the recommended daily intake."
+		},
+		"img": "/images/ingredients/avocado.webp",
+		"id": "acetyl-l-carnitine"
+	},
 	"bacopa": {
 		"es": {
 			"title": "BACOPA MONNIERI",
@@ -22,7 +36,7 @@
 		"en": {
 			"title": "GINGKO BILOBA",
 			"subtitle": "Improves mental and cognitive performance.",
-			"description": "Also known as Siberian ginseng. Believed to be the most potent adaptogenic herb and a strong antioxidant (protects the cells in your body from free radicals). The effects of Siberian Ginseng were researched heavily by cyclists and Olympic marathoners, as well as astronauts, soldiers and sailors."
+			"description": "Believed to be the most potent adaptogenic herb and a strong antioxidant (protects the cells in your body from free radicals). The effects of Siberian Ginseng were researched heavily by cyclists and Olympic marathoners, as well as astronauts, soldiers and sailors."
 		},
 		"img": "/images/ingredients/gingko.webp",
 		"id": "ginseng"
@@ -43,17 +57,31 @@
 	},
 	"theanine": {
 		"es": {
-			"title": "Teanina",
+			"title": "L-Teanina",
 			"subtitle": "Potencia los puntos positivos y contrarresta los negativos de la cafeina",
 			"description": "Utilizamos semillas de Coffea Arábica de la máxima pureza y calidad . La combinación de Teanina y Cafeína anhidra, potencia los efectos de ambas sustancias y reduce los efectos secundarios relacinados con la cafeína (agitación, nerviosismo) . Uno de los combustibles de Pandora que actúa en sinergia con el resto de ingredientes."
 		},
 		"en": {
-			"title": "Theanine",
+			"title": "L-Theanine",
 			"subtitle": "Increases caffeine's positive effects while decreasing its negative ones.",
 			"description": "Caffeine helps you lose weight by increasing the amount of energy your body burns throughout the day also improves strength, promotes muscle endurance, and enhances anaerobic performance."
 		},
 		"img": "/images/ingredients/theanine.webp",
 		"id": "theanine"
+	},
+	"l-tyrosine": {
+		"es": {
+			"title": "L-tyrosina",
+			"subtitle": "Mejora rendimiento mental y la memoria",
+			"description": "Estudios muestran que la L-Tyrosina mejora el rendimiento mental y la memoria sobretodo bajo condiciones de estrés."
+		},
+		"en": {
+			"title": "L-tyrosine",
+			"subtitle": "Improves mental performance and memory",
+			"description": "Research shows that taking tyrosine might improve mental performance, usually under stressful conditions and  that taking tyrosine improves memory during stressful conditions. These include cold-induced stress or multi-tasking. Tyrosine does not seem to improve memory during less stressful situations. "
+		},
+		"img": "/images/ingredients/tyrosine.webp",
+		"id": "l-tyrosine"
 	},
 	"rhodiola": {
 		"es": {
@@ -73,12 +101,12 @@
 		"es": {
 			"title": "Mucuna Puriens",
 			"subtitle": "",
-			"description": "Utilizamos semillas de Coffea Arábica de la máxima pureza y calidad . La combinación de Teanina y Cafeína anhidra, potencia los efectos de ambas sustancias y reduce los efectos secundarios relacinados con la cafeína (agitación, nerviosismo) . Uno de los combustibles de Pandora que actúa en sinergia con el resto de ingredientes."
+			"description": "Precursor de L-Dopa"
 		},
 		"en": {
 			"title": "Mucuna Puriens",
 			"subtitle": "",
-			"description": "Caffeine helps you lose weight by increasing the amount of energy your body burns throughout the day also improves strength, promotes muscle endurance, and enhances anaerobic performance."
+			"description": "L-Dopa Precursor."
 		},
 		"img": "/images/ingredients/mucuna.webp",
 		"id": "mucuna"
